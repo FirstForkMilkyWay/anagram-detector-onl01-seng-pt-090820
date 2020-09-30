@@ -4,7 +4,12 @@ class Anagram
 
   attr_accessor :name 
   
-  def initialize 
+  def initialize(name)
+    @name = name 
+  end 
+  
+  def match 
+  end 
 
 
 
