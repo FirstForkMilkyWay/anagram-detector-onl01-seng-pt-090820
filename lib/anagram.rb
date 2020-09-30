@@ -8,7 +8,13 @@ class Anagram
     @name = name 
   end 
   
-  def match 
+  def match(words) 
+    words.() do |match|
+      if match == name 
+        return true 
+      else 
+        return nil 
+    
   end 
 
 
