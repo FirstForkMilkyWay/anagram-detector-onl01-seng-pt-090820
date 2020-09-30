@@ -8,14 +8,10 @@ class Anagram
     @name = name 
   end 
   
-  def match(%w(words)) 
-    words.() do |match|
-      if match == name 
-        return true 
-      else 
-        return nil 
-    
-  end 
+  array_of_words.select do |element|
+      (@word.split("").sort) == (element.split("").sort)
+    end
+  end
 
 
 
