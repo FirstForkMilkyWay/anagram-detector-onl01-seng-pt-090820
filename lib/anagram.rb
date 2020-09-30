@@ -8,7 +8,7 @@ class Anagram
     @name = name 
   end 
   
-  def match(words) 
+  def match(%w(words)) 
     words.() do |match|
       if match == name 
         return true 
